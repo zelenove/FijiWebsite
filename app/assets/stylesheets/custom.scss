@@ -60,24 +60,36 @@ font-size: 1.1em;
 line-height: 1.7em;
 }   
 
-.parallax {
-  /* The image used */
-  background-image: url("toronto.png");
-
-  /* Set a specific height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* header */
 
 .navbar {
   margin-bottom: 0;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+}
+
+#logo {
+  font-size: 2.5em;
+  color: #eaeaea;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  &:hover {
+    color: #eaeaea;
+    text-decoration: none;
+  }
+}
+
+/* landing image */
+
+.parallax {
+  background-image: url("toronto.png");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* footer */

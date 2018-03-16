@@ -1,18 +1,21 @@
 <header>
     <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+    <div class="container">
+
       <div class="navbar-header">
         <a class="navbar-brand" href="#">
-          <%= link_to image_tag("logo.png", alt: "FIJI Tau Kappa")%>
-          Phi Gamma Delta
+          <%= image_tag("fiji_logo.png", alt: "FIJI Tau Kappa", size:"40")%>
+          <%= link_to "Phi Gamma Delta", '#', id: "logo" %>
         </a>
       </div>
+
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li><%= link_to "Home",   '#' %></li>
+        <li><%= link_to "Chapter",   '#' %></li>
+        <li><%= link_to "Alumni",   '#' %></li>
+        <li><%= link_to "Login",   '#' %></li>
       </ul>
+      
     </div>
   </nav>
 </header>
