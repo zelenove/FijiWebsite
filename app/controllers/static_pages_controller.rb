@@ -1,10 +1,15 @@
 class StaticPagesController < ApplicationController
+  
   def home
   end
 
-  def help
+  def alumni
   end
 
-  def about
+  def brothers
   end
+
+  def chapter
+  end
+
 end

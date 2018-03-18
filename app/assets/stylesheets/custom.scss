@@ -3,6 +3,9 @@
 
 /* universal */
 
+$light-gray: #777;
+$gray-medium-light: #eaeaea;
+
 body {
   padding-top: 60px;
 }
@@ -50,7 +53,7 @@ letter-spacing: -1px;
 margin-bottom: 30px;
 text-align: center;
 font-weight: normal;
-color: #777;
+color: $light-gray;
 }
 
 p {
@@ -69,11 +72,11 @@ p {
 
 #logo {
   font-size: 2.5em;
-  color: #eaeaea;
+  color: $gray-medium-light;
   text-transform: uppercase;
   letter-spacing: -1px;
   &:hover {
-    color: #eaeaea;
+    color: white;
     text-decoration: none;
   }
 }
@@ -111,8 +114,8 @@ p {
 
 footer {
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
+  border-top: 1px solid $gray-medium-light;
+  color: $light-gray;
   a {
     color: #555;
     &:hover {
