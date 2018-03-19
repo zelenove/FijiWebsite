@@ -4,18 +4,18 @@
 
       <div class="navbar-header">
         <a class="navbar-brand" href="/">
-          <%= image_tag("fiji_logo.png", alt: "FIJI Tau Kappa", size:"40")%>
-          <%= link_to "Phi Gamma Delta", root_path, id: "logo" %>
+          <%= image_tag("fiji_logo.png", alt: "FIJI Tau Kappa", size:"25")%>
         </a>
       </div>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Chapter",    chapter_path %></li>
-        <li><%= link_to "Brothers",   brothers_path %></li>
-        <li><%= link_to "Alumni",   alumni_path %></li>
-        <li><%= link_to "Login",    root_path%></li>
-      </ul>
-
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Home",    "/" %></li>
+          <li><%= link_to "Chapter",    chapter_path %></li>
+          <li><%= link_to "Brothers",   brothers_path %></li>
+          <li><%= link_to "Alumni",   alumni_path %></li>
+          <li><%= link_to "Login",    root_path%></li>
+        </ul>
+      </div>
     </div>
   </nav>
 </header>
